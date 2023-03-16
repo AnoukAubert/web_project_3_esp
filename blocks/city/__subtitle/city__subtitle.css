@@ -1,0 +1,34 @@
+.city__subtitle {
+    align-self:self-end;
+    max-width: 58px;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+@media screen and (max-width: 1280px) {
+    .city__subtitle {
+        width: 58px;
+        height: 15px;
+        left: 648px;
+        grid-column: 2/-1;
+        grid-row: 1/-2;
+    }
+}
+@media screen and (max-width: 768px) {
+    .city__subtitle {
+        width: 67px;
+        height: 15px;
+        left: 392px;
+        grid-column: 2/-1;
+        grid-row: 1/-2;
+    }
+}
+@media screen and (max-width: 320px) {
+    .city__subtitle {
+        width: 288px;
+        height: 15px;
+        left: 16px;
+
+    }
+}

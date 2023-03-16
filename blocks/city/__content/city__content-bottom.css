@@ -1,0 +1,25 @@
+.city__content-bottom {
+    max-width: 1184px;
+}
+@media screen and (max-width: 1280px) {
+    .city__content-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 114px 38px;
+        grid-gap: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .city__content-bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .city__content-bottom {
+        display: flex;
+        flex-direction: column;
+    }
+}

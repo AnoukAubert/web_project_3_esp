@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+    height: 40px;
+    left: 531px;
+    top: 7433px;
+    background-color: black;
+}
+@media screen and (max-width: 1280px) {}
+@media screen and (max-width: 768px) {}
+@media screen and (max-width: 320px) {}

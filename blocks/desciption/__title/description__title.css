@@ -1,0 +1,32 @@
+.description__title {
+    position: absolute;
+    max-width: 1017px;
+    font-weight: 900;
+}
+@media screen and (max-width: 1280px) {
+    .description__title {
+        width: 1017px;
+        height: 116px;
+        left: 148px;
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .description__title {
+        width: 720px;
+        height: 232px;
+        left: 24px;
+        font-size: 54px;
+        line-height: 58px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .description__title {
+        width: 288px;
+        height: 175px;
+        left: 16px;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

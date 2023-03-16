@@ -1,0 +1,27 @@
+.page__logo {
+    position: absolute;
+    max-width: 270px;
+    top: 34px;
+}
+@media screen and (max-width: 1280px) {
+    .page__logo {
+        position: absolute;
+        width: 270px;
+        height: 70px;
+        left: 505px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .page__logo {
+        width: 270px;
+        height: 70px;
+        left: 249px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .page__logo {
+        width: 200px;
+        height: 51.85px;
+        left: 60px;
+    }
+}

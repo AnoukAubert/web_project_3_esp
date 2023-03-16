@@ -1,0 +1,38 @@
+.city__name {
+    align-self: start;
+    max-width: 456px;
+}
+@media screen and (max-width: 1280px) {
+    .city__name {
+        width: 456px;
+        height: 22px;
+        left: 648px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        grid-column: 2/-1;
+        grid-row: 2/-1;
+    }
+}
+@media screen and (max-width: 768px) {
+    .city__name {
+        width: 352px;
+        height: 22px;
+        left: 392px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        grid-column: 2/-1;
+        grid-row: 2/-1;
+    }
+}
+@media screen and (max-width: 320px) {
+    .city__name {
+        width: 288px;
+        height: 15px;
+        left: 16px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

@@ -1,0 +1,26 @@
+.visit {
+    width: 1184px;
+    height: 740px;
+    left: 48px;
+}
+@media screen and (max-width: 1280px) {
+    .visit {
+        width: 1184px;
+        height: 740px;
+        left: 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .visit {
+        width: 768px;
+        height: 746px;
+        left: 0px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .visit {
+        width: 321.26px;
+        height: 254px;
+        left: 0px;
+    }
+}
