@@ -1,9 +1,9 @@
 .main-ilustration {
     max-width: 984px;
     mix-blend-mode: hue;
-    -webkit-filter: grayscale(1); 
-    filter: gray; 
-    filter: grayscale(1); 
+    -webkit-filter: grayscale(1);
+    filter: gray;
+    filter: grayscale(1);
 }
 @media screen and (max-width: 1280px) {
     .main-ilustration {
