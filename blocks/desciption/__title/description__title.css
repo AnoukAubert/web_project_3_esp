@@ -1,6 +1,5 @@
 .description__title {
-    position: absolute;
-    max-width: 1017px;
+    width: 1017px;
     font-weight: 900;
 }
 @media screen and (max-width: 1280px) {

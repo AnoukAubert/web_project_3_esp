@@ -1,13 +1,13 @@
 .visit__subtitle {
-    position: absolute;
-    max-width: 280px;
+    width: 280px;
     font-weight: 400;
     text-align: center;
 }
 @media screen and (max-width: 1280px) {
     .visit__subtitle {
         width: 280px;
-        height: 66px;
+        /*height: 66px;*/
+        top: 250px;
         left: 500px;
         font-size: 18px;
         line-height: 22px;

@@ -1,5 +1,6 @@
 .city__paragraph {
-    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
     max-width: 484px;  
 }
 @media screen and (max-width: 1280px) {

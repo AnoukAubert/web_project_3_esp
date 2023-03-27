@@ -1,10 +1,11 @@
 .city__subtitle {
     align-self:self-end;
-    max-width: 58px;
+    width: 58px;
     letter-spacing: 0.12em;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
+    color: #AAA;
 }
 @media screen and (max-width: 1280px) {
     .city__subtitle {

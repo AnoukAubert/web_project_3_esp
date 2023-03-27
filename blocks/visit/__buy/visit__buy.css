@@ -1,11 +1,11 @@
 .visit__buy {
-    display: flex;
+    /*display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 13px 20px;
+    align-items: flex-start;*/
+    
+    /*padding: 13px 20px;*/
     gap: 10px;
-    position: absolute;
-    max-width: 198px;
+    width: 198px;
     background: #0278FE;
     border-radius: 4px;
     font-weight: 600;
@@ -14,7 +14,6 @@
 @media screen and (max-width: 1280px) {
     .visit__buy {
         width: 198px;
-        height: 48px;
         left: 541px;
         font-size: 18px;
         line-height: 22px;

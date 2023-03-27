@@ -1,4 +1,5 @@
 .eight-pictures {
+    position: relative;
     max-width: 1184px;
 }
 @media screen and (max-width: 1280px) {
@@ -9,7 +10,8 @@
         width: 1184px;
         height: 442px;
         left: 48px;
-        row-gap: 30px;
+        column-gap: 16px;
+        row-gap: 16px;
     }
 }
 @media screen and (max-width: 768px) {

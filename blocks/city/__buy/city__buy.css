@@ -13,6 +13,9 @@
         font-weight: 600;
         font-size: 17px;
         line-height: 22px;
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: 48px;
     }
 }
 @media screen and (max-width: 768px) {

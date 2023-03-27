@@ -1,14 +1,22 @@
 .city {
-    max-width: 1184px;
+    width: 1184px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
 }
 @media screen and (max-width: 1280px) {
     .city {
         width: 1184px;
+        display: grid;
+        grid-template-columns: repeat(2, 45%);
+        grid-template-rows: repeat(3, auto);
     }
 }
 @media screen and (max-width: 768px) {
     .city {
-        max-width: 768px;
+        width: 768px;
     }
 }
 @media screen and (max-width: 320px) {

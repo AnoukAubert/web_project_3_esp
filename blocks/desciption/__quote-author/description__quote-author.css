@@ -1,6 +1,5 @@
 .description__quote-author {
-    position: absolute;
-    max-width: 720px;
+    width: 720px;
     height: 34px;
     left: 148px;
     font-weight: 400;

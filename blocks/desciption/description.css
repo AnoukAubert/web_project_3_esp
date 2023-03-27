@@ -1,11 +1,13 @@
 .description {
+    width: 1017px;
     display: flex;
-    max-width: 1017px;
+    align-items: center;
+    flex-direction: column;
 }
 @media screen and (max-width: 1280px) {
     .description {
         width: 1017px;
-        height: 516px;
+        /*height: 516px;*/
         left: 148px;
     }
 }

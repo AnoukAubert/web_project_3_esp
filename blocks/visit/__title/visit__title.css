@@ -1,13 +1,11 @@
 .visit__title {
-    position: absolute;
-    max-width: 656px;
+    width: 656px;
     font-weight: 900;
     text-align: center;
 }
 @media screen and (max-width: 1280px) {
     .visit__title {
         width: 656px;
-        height: 76px;
         left: 312px;
         font-size: 72px;
         line-height: 76px;

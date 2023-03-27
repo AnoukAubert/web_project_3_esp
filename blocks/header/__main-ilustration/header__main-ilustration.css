@@ -1,26 +1,24 @@
-.main-ilustration {
-    max-width: 984px;
-    mix-blend-mode: hue;
-    -webkit-filter: grayscale(1);
+.header__main-ilustration {
+    width: 984px;
     filter: gray;
     filter: grayscale(1);
 }
 @media screen and (max-width: 1280px) {
-    .main-ilustration {
-        width: 984px;
-        height: 615px;
+    .header__main-ilustration {
+        width: 100%;
+        /*height: 615px;*/
         left: 148px;
     }
 }
 @media screen and (max-width: 768px) {
-    .main-ilustration {
+    .header__main-ilustration {
         width: 768px;
         height: 480px;
         left: 0px;
     }
 }
 @media screen and (max-width: 320px) {
-    .main-ilustration {
+    .header__main-ilustration {
         width: 320px;
         height: 200px;
         left: 0px;
