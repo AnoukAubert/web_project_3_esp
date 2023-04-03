@@ -8,19 +8,25 @@
 }
 @media screen and (max-width: 1280px) {
     .city {
-        width: 1184px;
-        display: grid;
-        grid-template-columns: repeat(2, 45%);
-        grid-template-rows: repeat(3, auto);
+      width: 1184px;
+      display: grid;
+      grid-template-columns: repeat(2, 45%);
+      grid-template-rows: repeat(3, auto);
     }
 }
 @media screen and (max-width: 768px) {
     .city {
-        width: 768px;
+      width: 768px;
+      display: grid;
+      grid-template-columns: repeat(2, 45%);
+      grid-template-rows: repeat(3, auto);
     }
 }
 @media screen and (max-width: 320px) {
     .city {
-        width: 320px;
+      width: 320px;
+      padding-left: 0;
+      display: flex;
+      flex-direction: column;
     }
 }

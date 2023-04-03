@@ -9,27 +9,23 @@
 }
 @media screen and (max-width: 1280px) {
     .city__subtitle {
-        width: 58px;
-        height: 15px;
-        left: 648px;
-        grid-column: 2/-1;
-        grid-row: 1/-2;
+      width: 58px;
+      left: 648px;
+      grid-column: 2;
+      grid-row: 1;
     }
 }
 @media screen and (max-width: 768px) {
     .city__subtitle {
-        width: 67px;
-        height: 15px;
-        left: 392px;
-        grid-column: 2/-1;
-        grid-row: 1/-2;
+      width: 67px;
+      left: 392px;
+      grid-column: 2;
+      grid-row: 1;
     }
 }
 @media screen and (max-width: 320px) {
     .city__subtitle {
-        width: 288px;
-        height: 15px;
-        left: 16px;
-
+      width: 288px;
+      left: 16px;
     }
 }

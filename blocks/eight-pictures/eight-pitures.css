@@ -8,7 +8,6 @@
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: auto;
         width: 1184px;
-        height: 442px;
         left: 48px;
         column-gap: 16px;
         row-gap: 16px;
@@ -17,7 +16,6 @@
 @media screen and (max-width: 768px) {
     .eight-pictures {
         width: 720px;
-        height: 1104px;
         left: 24px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -28,7 +26,6 @@
 @media screen and (max-width: 320px) {
     .eight-pictures {
         width: 288px;
-        height: 1812px;
         left: 16px;
         display: flex;
         flex-direction: column;

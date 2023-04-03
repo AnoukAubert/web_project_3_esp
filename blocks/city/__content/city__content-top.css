@@ -3,22 +3,18 @@
 }
 @media screen and (max-width: 1280px) {
     .city__content-top  {
-        grid-row: 1;
-        grid-column: 2;
-        padding-top: 100px;
+      grid-row: 1;
+      grid-column: 2;
     }
 }
 @media screen and (max-width: 768px) {
     .city__content-top  {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 40px;
+      grid-row: 1;
+      grid-column: 2;
     }
 }
 @media screen and (max-width: 320px) {
     .city__content-top  {
-        display: flex;
-        flex-direction: column;
+      top: 0;
     }
 }

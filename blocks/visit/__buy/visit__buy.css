@@ -1,9 +1,5 @@
 .visit__buy {
-    /*display: flex;
-    flex-direction: row;
-    align-items: flex-start;*/
-    
-    /*padding: 13px 20px;*/
+    height: 48px;
     gap: 10px;
     width: 198px;
     background: #0278FE;
@@ -13,27 +9,25 @@
 }
 @media screen and (max-width: 1280px) {
     .visit__buy {
-        width: 198px;
-        left: 541px;
-        font-size: 18px;
-        line-height: 22px;
+      width: 198px;
+      left: 541px;
+      font-size: 18px;
+      line-height: 22px;
     }
 }
 @media screen and (max-width: 768px) {
     .visit__buy {
-        width: 158px;
-        height: 22px;
-        left: 285px;
-        font-size: 12px;
-        line-height: 1px;
+      width: 158px;
+      left: 285px;
+      font-size: 12px;
+      line-height: 1px;
     }
 }
 @media screen and (max-width: 320px) {
     .visit__buy {
-        width: 158px;
-        height: 22px;
-        left: 48px;
-        font-size: 18px;
-        line-height: 22px;
+      width: 158px;
+      left: 48px;
+      font-size: 18px;
+      line-height: 22px;
     }
 }

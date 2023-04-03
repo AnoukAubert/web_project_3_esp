@@ -4,25 +4,23 @@
     align-items: center;
     flex-direction: column;
     justify-items: center;
+    padding-top: 40px;
 }
 @media screen and (max-width: 1280px) {
     .header {
-        width: 984px;
-        /*height: 983px;*/
-        left: 148px;
+      width: 984px;
+      left: 148px;
     }
 }
 @media screen and (max-width: 768px) {
     .header {
-        width: 720px;
-        height: 371px;
-        left: 24px;
+      width: 720px;
+      padding-left: 24px;
     }
 }
 @media screen and (max-width: 320px) {
     .header {
-        width: 288px;
-        height: 188px;
-        left: 16px;
+      width: 320px;
+      padding-left: 0;
     }
 }

@@ -1,8 +1,10 @@
 .page {
+    background: #e5e5e5;
     background-color: black;
     color: white;
     max-width: 1280px;
     font-family: 'Inter';
     font-style: normal;
     margin: auto;
+    align-self: center;
 }

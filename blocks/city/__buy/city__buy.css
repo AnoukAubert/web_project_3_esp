@@ -7,31 +7,33 @@
 }
 @media screen and (max-width: 1280px) {
     .city__buy {
-        width: 355px;
-        top: 61px;
-        left: 148px;
-        font-weight: 600;
-        font-size: 17px;
-        line-height: 22px;
-        grid-column: 1;
-        grid-row: 3;
-        margin-top: 48px;
+      width: 355px;
+      left: 148px;
+      font-weight: 600;
+      font-size: 17px;
+      line-height: 22px;
+      grid-column: 1;
+      grid-row: 3;
+      margin-top: 48px;
     }
 }
 @media screen and (max-width: 768px) {
     .city__buy {
-        width: 315px;
-        font-weight: 600;
-        left: 24px;
-        font-size: 14px;
-        line-height: 1px;
+      width: 315px;
+      font-weight: 600;
+      left: 24px;
+      font-size: 14px;
+      line-height: 1px;
+      grid-column: 1;
+      grid-row: 3;
+      margin-top: 48px;
     }
 }
 @media screen and (max-width: 320px) {
     .city__buy {
-        width: 315px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 1px;
+      width: 315px;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 1px;
     }
 }

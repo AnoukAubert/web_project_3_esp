@@ -5,29 +5,25 @@
 }
 @media screen and (max-width: 1280px) {
     .visit__subtitle {
-        width: 280px;
-        /*height: 66px;*/
-        top: 250px;
-        left: 500px;
-        font-size: 18px;
-        line-height: 22px;
+      width: 280px;
+      left: 500px;
+      font-size: 18px;
+      line-height: 22px;
     }
 }
 @media screen and (max-width: 768px) {
     .visit__subtitle {
-        width: 280px;
-        height: 66px;
-        left: 244px;
-        font-size: 18px;
-        line-height: 22px;
+      width: 280px;
+      left: 244px;
+      font-size: 18px;
+      line-height: 22px;
     }
 }
 @media screen and (max-width: 320px) {
     .visit__subtitle {
-        width: 280px;
-        height: 48px;
-        left: 20px;
-        font-size: 14px;
-        line-height: 16px;
+      width: 280px;
+      left: 20px;
+      font-size: 14px;
+      line-height: 16px;
     }
 }
