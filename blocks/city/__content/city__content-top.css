@@ -1,5 +1,7 @@
 .city__content-top  {
     max-width: 1184px;
+    grid-row: 1;
+    grid-column: 2;
 }
 @media screen and (max-width: 1280px) {
     .city__content-top  {

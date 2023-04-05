@@ -1,5 +1,8 @@
 .city__picture {
-    width: 460px;  
+  width: 460px;  
+  left: 148px;
+  grid-column: 1;
+  grid-row: 2;
 }
 @media screen and (max-width: 1280px) {
     .city__picture {

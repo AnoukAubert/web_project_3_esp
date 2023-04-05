@@ -1,10 +1,15 @@
 .city {
-    width: 1184px;
+    width: 100vw;
     justify-content: center;
     background-color: black;
     color: white;
     font-family: 'Inter';
     font-style: normal;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    grid-template-rows: repeat(3, auto);
+    background-color: black;
+    padding-top: 50px;
 }
 @media screen and (max-width: 1280px) {
     .city {
@@ -17,6 +22,7 @@
 @media screen and (max-width: 768px) {
     .city {
       width: 768px;
+      padding-left: 24px;
       display: grid;
       grid-template-columns: repeat(2, 45%);
       grid-template-rows: repeat(3, auto);

@@ -1,6 +1,6 @@
 .visit__image {
-    width: 1184px;
-    position: relative;
+    width: 100vw;
+    left: 48px;
 }
 @media screen and (max-width: 1280px) {
     .visit__image {
@@ -11,12 +11,12 @@
 @media screen and (max-width: 768px) {
     .visit__image {
       width: 768px;
-      left: 0px;
+      left: 0;
     }
 }
 @media screen and (max-width: 320px) {
     .visit__image {
       width: 320px;
-      left: 0px;
+      padding-left: 0;
     }
 }

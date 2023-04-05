@@ -1,6 +1,13 @@
 .city__name {
     align-self: self-start;
     width: 456px;
+    width: 456px;
+    left: 648px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 48px;
+    grid-column: 2;
+    grid-row: 2;
 }
 @media screen and (max-width: 1280px) {
     .city__name {

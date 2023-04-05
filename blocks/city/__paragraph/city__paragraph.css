@@ -1,7 +1,13 @@
 .city__paragraph {
     display: flex;
     flex-direction: column;
-    max-width: 484px;  
+    max-width: 484px;
+    width: 484px;
+    left: 648px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    grid-column: 2;  
 }
 @media screen and (max-width: 1280px) {
     .city__paragraph {
