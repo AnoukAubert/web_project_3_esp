@@ -8,9 +8,9 @@
     grid-column: 2;
     grid-row: 2;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width:768px) and (max-width: 1280px) {
     .city__name {
-      width: 456px;
+      width: 100%;
       left: 648px;
       font-weight: 400;
       font-size: 18px;
@@ -19,9 +19,9 @@
       grid-row: 2;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .city__name {
-      width: 352px;
+      width: 100%;
       left: 392px;
       font-weight: 400;
       font-size: 18px;
@@ -32,7 +32,7 @@
 }
 @media screen and (max-width: 320px) {
     .city__name {
-      width: 288px;
+      width: 100%;
       font-weight: 400;
       font-size: 12px;
       line-height: 15px;

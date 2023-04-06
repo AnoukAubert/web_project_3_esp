@@ -9,27 +9,31 @@
     grid-template-columns: repeat(2, 45%);
     grid-template-rows: repeat(3, auto);
     padding-top: 50px;
+    padding-bottom: 50px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width:768px) and (max-width: 1280px) {
     .city {
-      width: 1184px;
+      width: 100vw;
       display: grid;
       grid-template-columns: repeat(2, 45%);
       grid-template-rows: repeat(3, auto);
+      column-gap: 24px;
+      padding-left: 48px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width:320px) and (max-width: 768px) {
     .city {
-      width: 768px;
+      width: 100vw;
       padding-left: 24px;
       display: grid;
       grid-template-columns: repeat(2, 45%);
       grid-template-rows: repeat(3, auto);
+      column-gap: 16px;
     }
 }
 @media screen and (max-width: 320px) {
     .city {
-      width: 320px;
+      width: 100vw;
       padding-left: 0;
       display: flex;
       flex-direction: column;

@@ -4,17 +4,17 @@
   grid-column: 1;
   grid-row: 2;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width:768px) and (max-width: 1280px) {
     .city__picture {
-      width: 460px;
+      width: 100%;
       left: 148px;
       grid-column: 1;
       grid-row: 2;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .city__picture {
-      width: 340px;
+      width: 100%;
       left: 148px;
       grid-column: 1;
       grid-row: 2;
@@ -22,6 +22,6 @@
 }
 @media screen and (max-width: 320px) {
     .city__picture {
-      width: 320px;
+      width: 100%;
     }
 }

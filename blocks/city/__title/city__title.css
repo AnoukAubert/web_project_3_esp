@@ -1,11 +1,11 @@
 .city__title {
     width: 460px;
     font-weight: 900;
-
+    font-size: 72px;
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width:768px) and (max-width: 1280px) {
     .city__title {
-      width: 460px;
+      width: 100%;
       left: 148px;
       font-size: 72px;
       line-height: 76px;
@@ -13,9 +13,9 @@
       grid-row: 1;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .city__title {
-      width: 340px;
+      width: 100%;
       left: 24px;
       font-size: 42px;
       line-height: 46px;
@@ -25,7 +25,7 @@
 }
 @media screen and (max-width: 320px) {
     .city__title {
-      width: 288px;
+      width: 100%;
       left: 16px;
       font-size: 32px;
       line-height: 35px;
