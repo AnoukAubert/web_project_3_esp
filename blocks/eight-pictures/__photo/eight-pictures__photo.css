@@ -1,6 +1,5 @@
 .eight-pictures__photo {
     max-width: 284px;
-    /*height: 213px;*/
     left: 48px;
 }
 @media screen and (min-width:768px) and (max-width: 1280px) {
@@ -12,6 +11,6 @@
 @media screen and (min-width:0px) and (max-width: 768px) {
     .eight-pictures__photo {
         width: 80%;
-        left: 16px;;
+        left: 16px;
     }
 }
