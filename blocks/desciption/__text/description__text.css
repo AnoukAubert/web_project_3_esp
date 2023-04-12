@@ -3,22 +3,17 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
+    left: 148px;
 }
 @media screen and (min-width:768px) and (max-width: 1280px) {
     .description__text {
         width: 100%;
-        left: 148px;
+        margin-left: 24px;
     }
 }
-@media screen  and (min-width:320px) and (max-width: 768px) {
+@media screen  and (min-width:0px) and (max-width: 768px) {
     .description__text {
         width: 100%;
-        left: 24px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .description__text {
-        width: 90%;
-        left: 16px;
+        margin-left: 16px;
     }
 }

@@ -14,19 +14,7 @@
     grid-row: 3;
     margin-top: 48px;
 }
-@media screen and (max-width: 1280px) {
-    .city__buy {
-      width: 355px;
-      left: 148px;
-      font-weight: 600;
-      font-size: 17px;
-      line-height: 22px;
-      grid-column: 1;
-      grid-row: 3;
-      margin-top: 48px;
-    }
-}
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     .city__buy {
       width: 315px;
       font-weight: 600;
@@ -35,14 +23,21 @@
       line-height: 1px;
       grid-column: 1;
       grid-row: 3;
-      margin-top: 48px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .city__buy {
       width: 315px;
       font-weight: 600;
       font-size: 14px;
       line-height: 1px;
+      
     }
+}
+@media screen and (min-width: 0px) and (max-width: 320px) {
+  .city__buy {
+    width: 95%;
+    font-weight: 600;
+    font-size: 14px;
+  }
 }

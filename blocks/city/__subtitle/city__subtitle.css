@@ -12,23 +12,11 @@
 }
 @media screen and (min-width:768px) and (max-width: 1280px){
     .city__subtitle {
-      width: 58px;
-      left: 648px;
-      grid-column: 2;
-      grid-row: 1;
+      left: 392px;
     }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .city__subtitle {
-      width: 58px;
-      left: 392px;
-      grid-column: 2;
-      grid-row: 1;
-    }
-}
-@media screen and (max-width: 320px) {
-    .city__subtitle {
-      width: 58px;
       left: 16px;
     }
 }

@@ -2,16 +2,11 @@
     max-width: 1017px;
     font-size: 54px;
     font-weight: 900;
+    left: 148px;
+    font-size: 54px;
+    line-height: 58px;
 }
 @media screen and (min-width:768px) and (max-width: 1280px) {
-    .description__title {
-        width: 90%;
-        left: 148px;
-        font-size: 54px;
-        line-height: 58px;
-    }
-}
-@media screen  and (min-width:320px) and (max-width: 768px) {
     .description__title {
         width: 90%;
         left: 24px;
@@ -19,7 +14,7 @@
         line-height: 58px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen  and (min-width:0px) and (max-width: 768px) {
     .description__title {
         width: 90%;
         left: 16px;

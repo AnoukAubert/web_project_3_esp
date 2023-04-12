@@ -1,31 +1,35 @@
 .visit__title {
     width: 656px;
+    margin: 0;
     font-weight: 900;
     text-align: center;
+    font-size: 72px;
+    line-height: 76px;
+    left: 312px;
     font-size: 72px;
     line-height: 76px;
 }
 @media screen and (min-width:768px) and (max-width: 1280px) {
     .visit__title {
-      width: 656px;
-      left: 312px;
+      width: 100%;
+      left: 56px;
       font-size: 72px;
       line-height: 76px;
     }
 }
 @media screen and (min-width:320px) and (max-width: 768px) {
     .visit__title {
-      width: 656px;
-      left: 56px;
-      font-size: 72px;
-      line-height: 76px;
+      width: 288px;
+      left: 16px;
+      font-size: 24px;
+      line-height: 35px
     }
 }
 @media screen and (max-width: 320px) {
     .visit__title {
-      width: 288px;
+      width: 80%;
       left: 16px;
       font-size: 24px;
       line-height: 35px;
-    }
+    } 
 }
